@@ -1,0 +1,81 @@
+
+	*{
+		margin:0;
+		padding:0;		
+	}
+
+
+	body{
+		background-image: url("fone.jpg");
+	}
+
+	.targetAreaAnimate{
+		padding:100px;
+	}
+
+	.main-image{
+		width:200px;
+		border-radius:5px;
+		box-shadow:0 0 10px -2px black;
+		opacity:1;
+		min-height: 200px;
+		background-color: white;
+	}
+
+	.animate{
+		-webkit-transition:all 0.5s;
+		padding:0 40px 0 40px;
+	}
+
+	.animate-out{
+		-webkit-transition:all 0.5s;
+		padding:0;
+	}
+
+	#target span{
+		font-size:30px;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		font-weight: 800;
+		line-height: 6;
+		color:#eeeeee;
+		text-shadow:0 -2px 2px black;
+		opacity:1;
+	    -webkit-transition:all 0.5s;	
+	}
+
+	#target{
+		width:400px; 
+		height:200px;
+		box-shadow:0 0 10px -2px black;
+		border-radius:5px;
+		margin:auto;
+		margin-bottom:10px;
+		background-color: rgba(0,0,0,0.4);
+	}
+
+	#target span:nth-child(2){
+		opacity: 0;
+		position:relative;
+		bottom:180px;	
+	}
+
+	.image-block{
+		position: absolute;
+		float:left;
+		height:400px;
+		width:405px;
+		border:solid 1px #999;
+		padding:1px;
+		margin-bottom:200px;
+		border-radius: 4px;
+
+	}
+
+	.image-block img{
+		width:200px;
+		border-radius:5px;
+		float:left;
+		box-shadow:0 0 10px -2px black;
+		margin:1px;
+
+	}
